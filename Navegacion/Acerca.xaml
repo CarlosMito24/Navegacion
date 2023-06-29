@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.Acerca"
+             Title="Acerca">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="25, 25, 25, 25">
+            <Image Source="autor.jpg" WidthRequest="300"/>
+            <Label></Label>
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="10, 10, 10, 10" FontFamily="Bookman Old Style">Nombre del autor:</Label>
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="10, 10, 10, 10" FontFamily="Bookman Old Style">Carlos Alfonso Mito De León</Label>
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="10, 10, 10, 10" FontFamily="Bookman Old Style">Estudiante de tercer año de bachillerato, en desarrollo de software</Label>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

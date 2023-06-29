@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="25, 25, 25, 25">
+            <Image Source="dinero.png" WidthRequest="300"/>
+            <Button x:Name="Cambio" Text="Cambio" Clicked="CambioClicked" Margin="10, 10, 10, 10" FontFamily="Bookman Old Style"></Button>
+
+            <Image Source="triangulo.png" WidthRequest="300"/>
+            <Button x:Name="Triangulo" Text="Triángulo" Clicked="TrianguloClicked" Margin="10, 10, 10, 10" FontFamily="Bookman Old Style"></Button>
+
+            <Image Source="dinosaurios.jpg" WidthRequest="300"/>
+            <Button x:Name="Dinosaurio" Text="Peso Dinosaurio" Clicked="DinosaurioClicked" Margin="10, 10, 10, 10" FontFamily="Bookman Old Style"></Button>
+
+            <Image Source="gasolinera.jpg" WidthRequest="300"/>
+            <Button x:Name="Gasolinera" Text="Gasolinera" Clicked="GasolineraClicked" Margin="10, 10, 10, 10" FontFamily="Bookman Old Style"></Button>
+
+            <Image Source="autor.jpg" WidthRequest="300"/>
+            <Button x:Name="Acerca" Text="Acerca del Autor" Clicked="AcercaClicked" Margin="10, 10, 10, 10" FontFamily="Bookman Old Style"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
